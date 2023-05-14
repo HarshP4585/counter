@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text, .value {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+    text-align: center;
+    width: 50%;
+    margin: 1% auto;
+}
+
+.value {
+    font-size: 700%;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+}
+
+.increase, .decrease, .reset {
+    border: 2px solid;
+    border-radius: 7px;
+    font-size: larger;
+    margin: 1% auto;
+    text-align: center;
+    width: 10%;
+    background-color: pink;
+    font-weight: 600;
+}
